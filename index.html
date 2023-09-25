@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site 3d</title>
+    <link rel="icon" href="images/cube-outline.svg">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <button class="burger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <a class="header__logo" href="#">Logo</a>
+                <nav class="menu">
+                    <ul class="menu__list">
+                        <li class="menu__list-item">
+                            <a class="menu__list-link" href="#">Home<span></span></a>
+                        </li>
+                        <li class="menu__list-item">
+                            <a class="menu__list-link" href="#">About<span></span></a>
+                        </li>
+                        <li class="menu__list-item">
+                            <a class="menu__list-link" href="#">Contacts<span></span></a>
+                        </li>
+                        <li class="menu__list-item">
+                            <a class="menu__list-link" href="#">Services<span></span></a>
+                        </li>
+                    </ul>
+                </nav>
+                <button class="header__button">Login</button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="header__overlay"></div>
+        <section class="layers">
+            <div class="layers__container">
+                <div class="layers__item layer-1"></div>
+                <canvas class="layers__item particles" data-color="#f5f112"></canvas>
+                <div class="layers__item wrapper"></div>
+                <div class="layers__item layer-2"></div>
+                <div class="layers__item layer-3">
+                    <div class="layers__content">
+                        <h1 class="layers__title">Welcome to nature<span>camping</span></h1>
+                    </div>
+                </div>
+                <div class="layers__item layer-4"></div>
+                <div class="layers__item layer-5"></div>
+                <div class="layers__item layer-6"></div>
+            </div>
+            <div class="overlay"></div>
+
+        </section>
+
+        <section class="registration">
+            <div class="container">
+                <div class="registration__wrapper">
+                    <div class="registration__inner">
+                        <div class="login">
+                            <form class="login__form" action="">
+                                <h3 class="login__form-title">Login</h3>
+                                <div class="login__form-inputbox">
+                                    <ion-icon name="mail-outline"></ion-icon>
+                                    <input class="login__form-input" type="email" required>
+                                    <label>Email</label>
+                                </div>
+                                <div class="login__form-inputbox">
+                                    <ion-icon name="lock-closed-outline"></ion-icon>
+                                    <input class="login__form-input" type="password" required>
+                                    <label>Password</label>
+                                </div>
+                                <div class="login__form-box">
+                                    <label class="login__form-checkbox">
+                                        <input type="checkbox">
+                                        Remember me
+                                    </label>
+                                    <a class="login__form-link" href="#">Forgot Password?</a>
+                                </div>
+                                <button class="login__form-btn">Login</button>
+                                <p class="login__form-answer">Don`t have an account?</p>
+                                <a class="login__form-register" href="#">Register</a>
+                                <button class="login__form-exit">
+                                    <ion-icon name="close-outline"></ion-icon>
+                                </button>
+                            </form>
+                        </div>
+                        <div class="signup">
+                            <form class="login__form" action="">
+                                <h3 class="login__form-title">Signup</h3>
+                                <div class="login__form-inputbox">
+                                    <ion-icon name="person-outline"></ion-icon>
+                                    <input class="login__form-input" type="text" required>
+                                    <label>Username</label>
+                                </div>
+                                <div class="login__form-inputbox">
+                                    <ion-icon name="mail-outline"></ion-icon>
+                                    <input class="login__form-input" type="email" required>
+                                    <label>Email</label>
+                                </div>
+                                <div class="login__form-inputbox">
+                                    <ion-icon name="lock-closed-outline"></ion-icon>
+                                    <input class="login__form-input" type="password" required>
+                                    <label>Password</label>
+                                </div>
+                                <div class="login__form-box">
+                                    <label class="login__form-checkbox">
+                                        <input type="checkbox">
+                                        I agree to the news
+                                    </label>
+                                </div>
+                                <button class="login__form-btn">Register</button>
+                                <p class="login__form-answer">Already have an accaunt?</p>
+                                <a class="login__form-login" href="#">Login</a>
+                                <button class="login__form-exit">
+                                    <ion-icon name="close-outline"></ion-icon>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="product">
+            <div class="container">
+                <div class="product__inner">
+                    <h1 class="product__title">Going to nature</h1>
+                    <p class="product__text">Welcome to our outdoor site! We offer unique opportunities for lovers of
+                        outdoor activities and nature. Our routes run through picturesque places where you can enjoy the
+                        beauty of nature and spend time with family or friends.</p>
+                    <p class="product__info">John Smitch</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="feedback">
+            <div class="container">
+                <div class="feedback__inner">
+                    <form class="feedback__form" action="">
+                        <h3 class="feedback__form-title">Feedback</h3>
+                        <div class="feedback__form-inputbox">
+                            <ion-icon name="person-outline"></ion-icon>
+                            <input class="feedback__form-input" type="text" required>
+                            <label>Name</label>
+                        </div>
+                        <div class="feedback__form-inputbox">
+                            <ion-icon name="mail-outline"></ion-icon>
+                            <input class="feedback__form-input" type="email" required>
+                            <label>Email</label>
+                        </div>
+                        <div class="feedback__form-inputbox">
+                            <ion-icon name="call-outline"></ion-icon>
+                            <input class="feedback__form-input" type="tel" required>
+                            <label>Phone</label>
+                        </div>
+                        <label class="feedback__form-checkbox">
+                            <input type="checkbox">
+                            Subscribe to news
+                        </label>
+                        <button class="feedback__form-btn">Subscribe</button>
+                    </form>
+                    <div class="feedback__img-box">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <p class="footer__text">© 2023 SiteNew</p>
+                <div class="footer__icons">
+                    <ion-icon name="logo-whatsapp"></ion-icon>
+                    <ion-icon name="logo-vk"></ion-icon>
+                    <ion-icon name="logo-instagram"></ion-icon>
+                    <ion-icon name="logo-google-playstore"></ion-icon>
+                    <ion-icon name="logo-pinterest"></ion-icon>
+                    <p class="footer__info">New Site</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="js/particles.js"></script>
+    <script src="js/main.min.js"></script>
+</body>
+
+</html>
