@@ -1,4 +1,4 @@
-<h1 align="center">Parallax</h1>
+<h1 align="center">3DMove</h1>
 <div align="center" id="top">
 <img src="./app/images/screen.png" alt="logo" >
 </div>
@@ -6,15 +6,15 @@
 
 
 <p align="center">
-  <img alt="Github top language" src="https://img.shields.io/github/languages/top/matmon12/parallax?color=903db1">
+  <img alt="Github top language" src="https://img.shields.io/github/languages/top/matmon12/3DMove?color=903db1">
 
-  <img alt="Github language count" src="https://img.shields.io/github/languages/count/matmon12/parallax?color=d36449">
+  <img alt="Github language count" src="https://img.shields.io/github/languages/count/matmon12/3DMove?color=d36449">
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/matmon12/parallax?color=4cc71e">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/matmon12/3DMove?color=4cc71e">
 
-  <img alt="License" src="https://img.shields.io/github/license/matmon12/parallax?color=56BEB8">
+  <img alt="License" src="https://img.shields.io/github/license/matmon12/3DMove?color=56BEB8">
 
-  <img alt="Github stars" src="https://img.shields.io/github/stars/matmon12/parallax?color=56BEB8" />
+  <img alt="Github stars" src="https://img.shields.io/github/stars/matmon12/3DMove?color=56BEB8" />
 </p>
 
 
@@ -32,20 +32,20 @@
 
 ## :dart: About
 
-Website using parallax effect when scrolling.
+Website using 3D effect when moving the cursor.
 
 ## :sparkles: Features
 
-:heavy_check_mark: Parallax effect;\
+:heavy_check_mark: 3d effect;\
 :heavy_check_mark: Feedback form;\
-:heavy_check_mark: Smooth scrolling;\
+:heavy_check_mark: Modal window for authorization;\
 :heavy_check_mark: Adaptive for mobile devices;
 
 ## :rocket: Technologies
 
 The following tools were used in this project:
 
-- [GSAP](https://gsap.com/)
+- Particles.js
 
 ## :white_check_mark: Requirements
 
@@ -55,10 +55,10 @@ Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) an
 
 ```bash
 # Clone this project
-$ git clone https://github.com/matmon12/parallax
+$ git clone https://github.com/matmon12/3DMove
 
 # Access
-$ cd parallax
+$ cd 3DMove
 
 # Install dependencies
 $ npm install
